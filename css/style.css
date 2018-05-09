@@ -1,0 +1,139 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+/* ------------- CONTAINER-FLUID ------------- */
+.reserve {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center center;
+}
+h1 {
+  color: #fff;
+  white-space: pre-line;
+}
+h1 span {
+  font-size: 18px;
+}
+input[placeholder="WHAT IS YOUR DESTINATION, SAILOR?"]{
+  border: none;
+  border-radius: 5px;
+}
+input[placeholder="WHAT IS YOUR DESTINATION, SAILOR?"]:focus{
+  outline: 0 !important;
+  -webkit-filter: blur(0px) !important;
+}
+.btn-success {
+  color: #fff;
+  text-align: right;
+  font-size: 12px;
+  border: none;
+  padding: 0px 25px;
+  border-radius: 5px;
+  background-color: #e7434e;
+  background-repeat: no-repeat;
+  background-position: 5% 40%;
+  background-image: url(../img/sailboat-kopia.png);
+}
+button[type="submit"] {
+  color: #fff;
+  text-align: right;
+  font-size: 12px;
+  border: none;
+  padding: 0px 25px;
+  border-radius: 5px;
+  background-color: #e7434e;
+}
+.top-title {
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+.destinations {
+  bottom: -45px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: -3px 10px 28px -6px rgba(0,0,0,0.63);
+  -moz-box-shadow: -3px 10px 28px -6px rgba(0,0,0,0.63);
+  box-shadow: -3px 10px 28px -6px rgba(0,0,0,0.63);
+}
+.destinations p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  white-space: pre-line;
+}
+.destinations p span {
+  font-size: 14px;
+  color: #717171;
+  font-weight: 400;
+}
+/* ------------- /CONTAINER-FLUID ------------- */
+
+
+/* ------------- EXPLORE ------------- */
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+}
+.lorem {
+  font-size: 12px;
+  font-weight: 500;
+}
+.number {
+  font-size: 10px;
+  padding: 10px 25px;
+  width: fit-content;
+  background-color: #e7434e;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: 12% 35%;
+  background-image: url('../img/sailboat kopia.png');
+}
+h5 {
+  font-weight: 300;
+}
+h5 span {
+  font-size: 12px;
+  font-weight: 100;
+}
+/* FEATURES BOATS */
+.price {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 7px 14px;
+  width: fit-content;
+  background-color: #e7434e;
+  border-radius: 5px;
+}
+/* /FEATURES BOATS */
+
+
+/* ------------- /EXPLORE ------------- */
+
+/* ------------- OWN BOAT ------------- */
+.own-boat {
+  width: 100%;
+  height: 600px;
+  background-image: url('../img/background-photo.png');
+  background-size: cover;
+  background-position: center center;
+}
+h3 {
+  line-height: 50px;
+  font-size: 50px;
+  color: #fff;
+  white-space: pre-line;
+}
+h3 span {
+  font-size: 18px;
+}
+.btn-outline-warning {
+  width: fit-content;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  background-color: #e7434e;
+}
+/* ------------- /OWN BOAT ------------- */
