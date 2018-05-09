@@ -7,7 +7,7 @@
   .navbar {
     margin: 0 !important;
   }
-  /* HEADER */
+  /* /HEADER */
 
   /* RESERVE BOAT */
   h1 {
@@ -20,7 +20,13 @@
   .input-group {
     margin-top: 12px !important;
   }
-  /* RESERVE BOAT */
+  .destinations p {
+    font-size: 16px;
+  }
+  .destinations p span {
+    font-size: 10px;
+  }
+  /* /RESERVE BOAT */
 
   /* EXPLORE */
   h2 {
@@ -29,7 +35,7 @@
   .lorem {
     font-size: 10px;
   }
-  /* EXPLORE */
+  /* /EXPLORE */
 
   /* HAVE YOUR OWN BOAT */
   h3 {
@@ -38,7 +44,7 @@
   h3 span {
     font-size: 10px;
   }
-  /* HAVE YOUR OWN BOAT */
+  /* /HAVE YOUR OWN BOAT */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -47,7 +53,7 @@
   .navbar {
     margin: 0 !important;
   }
-  /* HEADER */
+  /* /HEADER */
 
   /* RESERVE BOAT */
   h1 {
@@ -60,7 +66,10 @@
   .input-group {
     margin-top: 12px !important;
   }
-  /* RESERVE BOAT */
+  .destinations p {
+    font-size: 18px;
+  }
+  /* /RESERVE BOAT */
 
   /* EXPLORE */
   h2 {
@@ -69,7 +78,7 @@
   .lorem {
     font-size: 10px;
   }
-  /* EXPLORE */
+  /* /EXPLORE */
 
   /* HAVE YOUR OWN BOAT */
   h3 {
@@ -78,7 +87,7 @@
   h3 span {
     font-size: 10px;
   }
-  /* HAVE YOUR OWN BOAT */
+  /* /HAVE YOUR OWN BOAT */
 }
 
 /* Large devices (desktops, 992px and up) */
