@@ -89,7 +89,7 @@ h2 {
   border-radius: 5px;
   background-repeat: no-repeat;
   background-position: 12% 35%;
-  background-image: url('../img/sailboat kopia.png');
+  background-image: url('../img/sailboat-kopia.png');
 }
 h5 {
   font-weight: 300;
@@ -98,19 +98,18 @@ h5 span {
   font-size: 12px;
   font-weight: 100;
 }
-/* FEATURES BOATS */
-.price {
-  font-weight: 500;
-  font-size: 12px;
-  padding: 7px 14px;
-  width: fit-content;
-  background-color: #e7434e;
-  border-radius: 5px;
+.upper {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
 }
-/* /FEATURES BOATS */
-
-
+.upper > div {
+  flex: 1 1 auto;
+  text-align: center;
+}
 /* ------------- /EXPLORE ------------- */
+
+
 
 /* ------------- OWN BOAT ------------- */
 .own-boat {
@@ -137,3 +136,14 @@ h3 span {
   background-color: #e7434e;
 }
 /* ------------- /OWN BOAT ------------- */
+
+/* FEATURES BOATS */
+.price {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 7px 14px;
+  width: fit-content;
+  background-color: #e7434e;
+  border-radius: 5px;
+}
+/* /FEATURES BOATS */

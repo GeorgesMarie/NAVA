@@ -30,10 +30,13 @@
 
   /* EXPLORE */
   h2 {
-    font-size: 16px;
+    font-size: 20px;
   }
   .lorem {
-    font-size: 7px;
+    font-size: 10px;
+  }
+  h5 span {
+    font-weight: 500;
   }
   /* /EXPLORE */
 
